@@ -1,3 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @charset "UTF-8";
 
 /*-----------------------------------------------------------------------------------
@@ -3225,10 +3239,10 @@ textarea {
   height: 100vh;
 }
 
-.carousel,
-.carousel-inner,
-.carousel-item,
-.active {
+#home .carousel,
+#home .carousel-inner,
+#home .carousel-item,
+#home .active {
   height: 100% !important;
 }
 
@@ -3268,6 +3282,8 @@ textarea {
   color: #202124;
   list-style-type: disc;
   font-weight: 600;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -3290,6 +3306,26 @@ textarea {
 .form_control,
 .contact-area .contact-form .nice-select {
   background-color: rgb(238, 238, 238) !important;
+}
+
+.form_control::-webkit-input-placeholder {
+  color: #363636 !important;
+  font-weight: 600;
+}
+
+.form_control::-moz-placeholder {
+  color: #363636 !important;
+  font-weight: 600;
+}
+
+.form_control:-ms-input-placeholder {
+  color: #363636 !important;
+  font-weight: 600;
+}
+
+.form_control::-ms-input-placeholder {
+  color: #363636 !important;
+  font-weight: 600;
 }
 
 .form_control::placeholder,
@@ -3334,13 +3370,22 @@ textarea {
 }
 
 .footer-widget .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
 .komite-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -3368,12 +3413,20 @@ textarea {
 
 .tedbir-section {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .tedbir-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 80%;
 }
@@ -3405,8 +3458,15 @@ textarea {
 }
 
 .uzvler {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -3419,13 +3479,21 @@ textarea {
 .sector-select {
   margin-bottom: 2rem;
   width: 170px !important;
+  -ms-flex-item-align: end;
   align-self: flex-end;
 }
 
 .table-container {
   width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -3469,11 +3537,15 @@ textarea {
 }
 
 .case-study .card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
 .case-study .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -3487,14 +3559,25 @@ textarea {
 }
 
 .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .card-container .row {
   /* width: 60% !important; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   margin-bottom: 2.5rem;
 }
@@ -3509,8 +3592,15 @@ tr.hover {
 }
 
 #metbuatda_biz .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -3521,10 +3611,16 @@ tr.hover {
 .musiad_main-logo {
   width: 150px;
   padding-bottom: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 .musiad_main-logo:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
   transform: scale(1.05);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 #more,
@@ -3576,7 +3672,11 @@ tr.hover {
 }
 
 .deyerler .lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100% !important;
 }
@@ -3587,6 +3687,71 @@ tr.hover {
 
 .short {
   display: none !important;
+}
+
+#statistika .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#statistika .row-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0.5;
+  -ms-flex: 0.5;
+  flex: 0.5;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  border-right: 2px solid black;
+  padding: 20px 60px 20px 10px;
+}
+#statistika .row-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0.5;
+  -ms-flex: 0.5;
+  flex: 0.5;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding: 20px 60px 20px 10px;
+}
+.counter-area .single-counter .info h2 {
+  font-size: 40px;
+}
+.counter-area .counter-wrapper {
+  padding: 80px 50px 40px;
+}
+
+.main-musiad {
+  display: none;
+}
+.mobile-main-menu_logo {
+  display: none;
+}
+
+.main-menu.mobile {
+  display: none;
+}
+
+#uzvler .carousel,
+#uzvler .carousel-inner,
+#uzvler .carousel-item,
+#uzvler .carousel-inner .active {
+  height: 162px !important;
+}
+
+#home .carousel,
+#home .carousel-inner,
+#home .carousel-item,
+#home .carousel-inner .active {
+  height: 100% !important;
 }
 
 @media (min-width: 1200px) {
@@ -3628,25 +3793,119 @@ tr.hover {
   .header-navigation .navbar-close {
     background-color: #ffa201;
   }
-  .main-menu {
-    height: 90%;
+
+  #haqqimizda .tarixce .single-service-item {
+    height: 872px;
+  }
+  #haqqimizda .tarixce .service-text {
+    line-height: 1.25rem;
+  }
+
+  #statistika .row-left {
+    border-right: none !important;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  #statistika .row-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-flex: 0.5;
+    -ms-flex: 0.5;
+    flex: 0.5;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  #statistika .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
-  .main-menu ul {
-    width: 100%;
+
+  #statistika .row h1 {
+    margin-bottom: -40px;
+    font-weight: bold;
+    font-size: 25px;
   }
+
+  #statistika .container {
+    max-width: 850px;
+  }
+  .counter-area .counter-wrapper {
+    padding: 80px 10px 0px;
+  }
+
+  /* .main-menu {
+    height: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: red;
+  } */
+  /* .main-menu ul {
+    width: 100%;
+  } */
+
   .mobile-logo {
     margin-bottom: 100px;
     display: block;
   }
   .mobile-copyright {
     position: absolute;
-    bottom: 10px;
+    bottom: 5%;
   }
-  .main-menu .active {
-    height: 50% !important;
+  .main-menu.mobile .active {
+    height: auto;
+  }
+  .musiad-main-logo {
+    display: none;
+  }
+  .main-musiad {
+    display: block;
+  }
+
+  .mobile-main-menu_logo {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    display: block;
+  }
+  .main-menu {
+    display: none !important;
+  }
+  .main-menu.mobile {
+    display: block !important;
+  }
+  /* .main-menu.mobile > ul {
+    margin-top: 35% !important;
+  } */
+
+  .nav-social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
   }
 }
 
@@ -3662,8 +3921,15 @@ tr.hover {
   }
 
   #metbuatda_biz .case-column {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
     flex-direction: column !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
     align-items: center !important;
   }
   #komiteler .single-service-item {
@@ -3671,9 +3937,30 @@ tr.hover {
     /* max-height: 620px; */
   }
 
-  /* #mayk {
-    margin-top: -70px;
-  } */
+  #haqqimizda .tarixce .single-service-item {
+    height: 1132px;
+  }
+  #haqqimizda .tarixce .service-text {
+    font-size: small;
+    line-height: 1.2rem;
+  }
+
+  #statistika .info p {
+    font-size: 1rem;
+  }
+  #statistika .info h2 {
+    font-size: 32px;
+  }
+  #statistika .icon {
+    min-width: 33px;
+    max-width: 45px;
+    margin-right: 15px;
+  }
+  #statistika .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 42%;
+    flex: 0 0 42%;
+  }
 }
 
 @media (max-width: 770px) {
@@ -3692,7 +3979,12 @@ tr.hover {
     text-align: center;
   }
   .footer-widget .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .card-container .row {
@@ -3721,23 +4013,40 @@ tr.hover {
   }
 
   .short {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
+    height: auto !important;
   }
   .long {
     display: none !important;
   }
-
-  /* .footer-logo {
-    width: 250px !important;
+  #haqqimizda .short .service-text {
+    line-height: 1.5rem;
+    font-size: 16px;
   }
 
-  .datapro_logo {
-    width: 30%;
+  .tarixce-col {
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  .footer-logo img {
-    height: inherit;
-  } */
+  #statistika .info p {
+    font-size: 1rem;
+  }
+  #statistika .info h2 {
+    font-size: 32px;
+  }
+  #statistika .icon {
+    min-width: 28px;
+    max-width: 42px;
+    margin-right: 10px;
+  }
+  #statistika .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 37%;
+    flex: 0 0 37%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -3752,12 +4061,24 @@ tr.hover {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
   .tedbir-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 90%;
     padding: 0;
@@ -3886,6 +4207,55 @@ tr.hover {
   .header-area-v1 .header-navigation .site-branding .brand-logo {
     padding: 13px !important;
   }
+
+  #statistika .info p {
+    font-size: 0.8rem;
+  }
+  #statistika .info h2 {
+    font-size: 23px;
+  }
+  #statistika .icon {
+    min-width: 25px;
+    max-width: 36px;
+    margin-right: 8px;
+  }
+  #statistika .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+  }
+  #statistika .row h1 {
+    font-size: 26px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  #statistika .info p {
+    font-size: 0.65rem;
+  }
+  #statistika .info h2 {
+    font-size: 18px;
+  }
+  #statistika .icon {
+    min-width: 22px;
+    max-width: 32px;
+    margin-right: 6px;
+  }
+  #statistika .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+  }
+  .counter-area .single-counter .info p {
+    line-height: 14px;
+  }
+  #statistika .row h1 {
+    font-size: 22px !important;
+    top: -40px !important;
+  }
+  .counter-area .counter-wrapper {
+    padding: 60px 10px 0px;
+  }
 }
 
 /*************************/
@@ -3944,10 +4314,13 @@ tr.hover {
     .carousel-inner
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
     + .carousel-item {
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
   }
   #carousel-example-1 .carousel-inner .carousel-item-next {
     position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
   /* left or forward direction */
@@ -3960,6 +4333,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
@@ -3982,6 +4356,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     visibility: visible;
     display: block;
@@ -4003,10 +4378,13 @@ tr.hover {
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
     + .carousel-item
     + .carousel-item {
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
   }
   #carousel-example-1 .carousel-inner .carousel-item-next {
     position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
   /* left or forward direction */
@@ -4016,6 +4394,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
@@ -4026,6 +4405,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     visibility: visible;
     display: block;
@@ -4049,6 +4429,8 @@ tr.hover {
     + .carousel-item
     + .carousel-item
     + .carousel-item {
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
   }
   /* Show 5th slide on lg if col-lg-3 */
@@ -4074,6 +4456,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
@@ -4085,6 +4468,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     visibility: visible;
     display: block;
@@ -4141,10 +4525,13 @@ tr.hover {
     .carousel-inner
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
     + .carousel-item {
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
   }
   #carousel-example-2 .carousel-inner .carousel-item-next {
     position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
   /* left or forward direction */
@@ -4157,6 +4544,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
@@ -4179,6 +4567,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     visibility: visible;
     display: block;
@@ -4200,10 +4589,13 @@ tr.hover {
     .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
     + .carousel-item
     + .carousel-item {
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
   }
   #carousel-example-2 .carousel-inner .carousel-item-next {
     position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
   /* left or forward direction */
@@ -4213,6 +4605,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
@@ -4223,6 +4616,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     visibility: visible;
     display: block;
@@ -4246,6 +4640,8 @@ tr.hover {
     + .carousel-item
     + .carousel-item
     + .carousel-item {
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
   }
   /* Show 5th slide on lg if col-lg-3 */
@@ -4271,6 +4667,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
@@ -4282,6 +4679,7 @@ tr.hover {
     + .carousel-item
     + .carousel-item {
     position: relative;
+    -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     visibility: visible;
     display: block;
@@ -4294,4 +4692,18 @@ tr.hover {
 }
 #uzvler .container {
   height: 20% !important;
+}
+
+#uzvler .carousel-control-prev {
+  left: -13px;
+  width: 20px;
+}
+#uzvler .carousel-control-next {
+  right: -13px;
+  width: 20px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #ffa201;
+  border-radius: 50%;
 }

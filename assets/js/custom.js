@@ -10,6 +10,7 @@
       navMenu = $('.nav-menu'),
       navMenuLi = $('.nav-menu ul li ul li'),
       closeIcon = $('.navbar-close');
+    var bodyClose = $('.body-container');
     // navbar toggler
     navbarToggler.on('click', function () {
       navbarToggler.toggleClass('active');
@@ -20,6 +21,11 @@
       navMenu.removeClass('menu-on');
       navbarToggler.removeClass('active');
     });
+    bodyClose.on('click', function () {
+      navMenu.removeClass('menu-on');
+      navbarToggler.removeClass('active');
+    });
+
     // adds toggle button to li items that have children
     navMenu.find('li a').each(function () {
       if ($(this).next().length > 0) {
