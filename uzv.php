@@ -43,7 +43,7 @@ if(isset($_GET['id'])){
               <td><?= $get_member['sector'] ?></td>
             </tr>
             <tr>
-              <td class="font-weight-bold w-25">Adresi:</td>
+              <td class="font-weight-bold w-25">Ünvan:</td>
               <td><?= $get_member['adress'] ?></td>
             </tr>
           </tbody>

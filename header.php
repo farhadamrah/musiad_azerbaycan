@@ -9,7 +9,9 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!--====== Title ======-->
-    <title>MUSIAD AZERBAYCAN</title>
+    <title>MÜSİAD Azərbaycan</title>
+    <link rel="shortcut icon" href="assets/img/icons/favicon.ico" type="image/x-icon"/>  
+
     <!--====== Bootstrap ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
@@ -31,7 +33,21 @@
     <!--====== Responsive css ======-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+	  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+  ym(83737231, "init", {
+        clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true,
+       webvisor:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/83737231" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
   </head>
 
@@ -61,7 +77,7 @@
                       <span><i class="fal fa-phone"></i> <a href="tel:+994124400690">+994 12 440 06 90</a></span>
                     </li>
                     <li>
-                      <span><i class="fal fa-envelope"></i><a href="mailto:info@website.com">
+                      <span><i class="fal fa-envelope"></i><a href="mailto:info@musiad.az">
                           info@musiad.az</a></span>
                     </li>
                   </ul>
@@ -71,13 +87,13 @@
                 <div class="top-right">
                   <ul>
                     <li>
-                      <a href="https://www.facebook.com/musiad.az/"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://www.facebook.com/MUSIADAzerbaycan" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/MusiadB"><i class="fab fa-twitter"></i></a>
+                      <a href="https://twitter.com/MusiadB" target="_blank"><i class="fab fa-twitter"></i></a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/musiadbaku/?hl=tr"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.instagram.com/musiadazerbaycan/?hl=tr" target="_blank"><i class="fab fa-instagram"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -101,9 +117,9 @@
                   <li class="menu-item menu-item-has-children">
                     <a href="#" class="nav-link page_scroll">Korporativ</a>
                     <ul class="sub-menu">
-                      <li><a href="index.php">İdarə heyəti</a></li>
+                      <li><a href="idare-heyeti.php">İdarə heyəti</a></li>
                       <li><a href="index.php#empty-komiteler">Komitələr</a></li>
-                      <li><a href="index.php#empty-uzvler">Üzvlər</a></li>
+                      <li><a href="uzvler.php">Üzvlər</a></li>
                     </ul>
                   </li>
                   <li class="menu-item menu-item-has-children">
@@ -116,7 +132,7 @@
                         <a href="index.php#empty-metbuat">Mətbuatda biz</a>
                       </li>
                       <li>
-                        <a href="#">Yaxınlaşan tədbirlər</a>
+                        <a href="tedbirler.php">Yaxınlaşan tədbirlər</a>
                       </li>
                     </ul>
                   </li>
@@ -125,6 +141,9 @@
                   </li>
                   <li class="menu-item menu-item-has-children">
                     <a href="layihe-teklifi.php" class="nav-link page_scroll">Layihə təklifi</a>
+                  </li>
+                  <li class="menu-item menu-item-has-children">
+                    <a href="elaqe.php" class="nav-link">Əlaqə</a>
                   </li>
                   <li class="menu-item-has-children">
                     <a href="https://www.musiad.org.tr/" target="_blank" class="nav-link page_scroll">
@@ -147,7 +166,7 @@
                   <li class="menu-item menu-item-has-children">
                     <a href="#" class="nav-link page_scroll">Korporativ</a>
                     <ul class="sub-menu">
-                      <li><a href="index.php">İdarə heyəti</a></li>
+                      <li><a href="idare-heyyeti.php">İdarə heyəti</a></li>
                       <li><a href="index.php#empty-komiteler">Komitələr</a></li>
                       <li><a href="index.php#empty-uzvler">Üzvlər</a></li>
                     </ul>
@@ -162,7 +181,7 @@
                         <a href="index.php#empty-metbuat">Mətbuatda biz</a>
                       </li>
                       <li>
-                        <a href="#">Yaxınlaşan tədbirlər</a>
+                        <a href="tedbirler.php">Yaxınlaşan tədbirlər</a>
                       </li>
                     </ul>
                   </li>

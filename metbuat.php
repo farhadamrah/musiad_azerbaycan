@@ -1,37 +1,24 @@
 <?php 
 include_once "header.php"; ?>
-     
-    <!--====== Heading area end ======-->
-    <!--====== Hero area start ======-->
+
     <section
       class="case-study case-masonry-grid pt-110 pb-180"
       id="metbuatda_biz"
     >
       <div class="container">
         <div class="row">
-          <div >
+          <div>
             <div class="section-title text-center mb-70 mt-70">
-              <!-- <span class="span">Xəbərlər</span> -->
               <h2>Mətbuatda biz</h2>
             </div>
           </div>
         </div>
-        <!-- <div class="row justify-content-center">
-          <div class="col-md-12">
-            <ul class="portfolios-list text-center">
-              <li  class="active">All Projects</li>
-              <li class="active" data-filter=".ui-ux">UI/UX</li>
-              <li data-filter=".branding">Branding</li>
-              <li data-filter=".web-design">Web Design</li>
-              <li data-filter=".printing">Printing</li>
-            </ul>
-          </div>
-        </div> -->
+       
         <div class="masonry-row row">
           <div class="col-lg-4 col-md-6 col-sm-12 ui-ux case-column">
             <div class="single-case-study">
               <div class="case-img">
-                <img src="assets/img/MUSIAD-Aze/metbuat/img1.jpg" alt="" />
+                <img src="assets/img/MUSIAD-Aze/metbuat/lider.jpg" alt="" />
                 <div class="case-overlay">
                   <div class="case-study-info">
                     <a href="#" class="icon"><i class="fal fa-plus"></i></a>
@@ -48,14 +35,13 @@ include_once "header.php"; ?>
           <div class="col-lg-4 col-md-6 col-sm-12 ui-ux case-column">
             <div class="single-case-study">
               <div class="case-img">
-                <img src="assets/img/MUSIAD-Aze/metbuat/img2.jpg" alt="" />
+                <img src="assets/img/MUSIAD-Aze/metbuat/korporativ.jpg" alt="" />
                 <div class="case-overlay">
                   <div class="case-study-info">
                     <a href="#" class="icon"><i class="fal fa-plus"></i></a>
-                    <span class="tag">12-12-2020</span>
+                    <span class="tag">25-09-2020</span>
                     <h5>
-                      Ümummilli lider Heydər Əliyevin unudulmaz xatirəsini
-                      ehtiramla yad edirik.
+                    MÜSİAD Azərbaycan ilk dəfə korporativ formada öz üzvləri arasında borc fondu təsis edib.
                     </h5>
                   </div>
                 </div>
@@ -65,14 +51,13 @@ include_once "header.php"; ?>
           <div class="col-lg-4 col-md-6 col-sm-12 ui-ux case-column">
             <div class="single-case-study">
               <div class="case-img">
-                <img src="assets/img/MUSIAD-Aze/metbuat/img4.jpg" alt="" />
+                <img src="assets/img/MUSIAD-Aze/metbuat/forum.jpg" alt="" />
                 <div class="case-overlay">
                   <div class="case-study-info">
-                    <a href="#" class="icon"><i class="fal fa-plus"></i></a>
-                    <span class="tag">12-12-2020</span>
+                    <a href="metbuat-item.php" class="icon"><i class="fal fa-plus"></i></a>
+                    <span class="tag">07-07-2021</span>
                     <h5>
-                      Ümummilli lider Heydər Əliyevin unudulmaz xatirəsini
-                      ehtiramla yad edirik.
+                    MÜSİAD İBF Azərbaycanda Beynəlxalq Biznes forumu təşkil edəcəkdir
                     </h5>
                   </div>
                 </div>
@@ -82,7 +67,6 @@ include_once "header.php"; ?>
         </div>
       </div>
     </section>
-    <!--====== Contact form area end ======-->
-    <!--====== Footer v2 area start ======-->
+
     <?php 
 include_once "footer.php"; ?>

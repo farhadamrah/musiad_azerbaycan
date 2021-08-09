@@ -9,12 +9,11 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <div class="section-title section-title-white text-center mb-90">
-              <!-- <span class="span">Meet Our Team</span> -->
+            <div class="section-title section-title-white text-center mb-80">
               <h2
                 style="
                   color: black;
-                  margin-top: 3rem;
+                  margin-top: 5rem;
                   font-weight: 600;
                   font-size: 3rem;
                 "
@@ -26,17 +25,28 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6">
-            <a href="tedbir.html">
-              <div class="single-team-member mb-40">
+            <div class="single-team-member mb-40">
+              <div class="team-img">
+                <img src="./assets/img/MUSIAD-Aze/fealiyyetlerimiz/dircelish-gunu.jpg" alt="" />
+              </div>
+              <div class="member-info">
+                <h5>17 Noyabr Milli Dirçəliş Günü</h5>
+                <p>17-11-2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="fealiyyet.php">
+            <div class="single-team-member mb-40">
                 <div class="team-img">
-                  <img
-                    src="./assets/img/MUSIAD-Aze/tedbirler/bayra123.jpg"
-                    alt=""
-                  />
+                  <img src="./assets/img/MUSIAD-Aze/fealiyyetlerimiz/qarabag-yardim.jpg" alt="" />
                 </div>
                 <div class="member-info">
-                  <h5>9 Noyabr - Azərbaycanın Dövlət Bayrağı Günü</h5>
-                  <p>09-11-2020</p>
+                  <h5>
+                    MÜSİAD Azərbaycan Dərnəyi Dağlıq Qarabağa yönəlik yardım
+                    kampaniyasını davam etdirməkdədir.
+                  </h5>
+                  <p>14-12-2020</p>
                 </div>
               </div>
             </a>
@@ -44,32 +54,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="single-team-member mb-40">
               <div class="team-img">
-                <img src="./assets/img/MUSIAD-Aze/carousel/photo5.jpg" alt="" />
-              </div>
-              <div class="member-info">
-                <h5>17 Noyabr Milli Dirçəliş Günü</h5>
-                <p>30-11-2020</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-team-member mb-40">
-              <div class="team-img">
-                <img src="./assets/img/MUSIAD-Aze/carousel/photo3.jpg" alt="" />
-              </div>
-              <div class="member-info">
-                <h5>
-                  MÜSİAD Azərbaycan Dərnəyi Dağlıq Qarabağa yönəlik yardım
-                  kampaniyasını davam etdirməkdədir.
-                </h5>
-                <p>14-12-2020</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-team-member mb-40">
-              <div class="team-img">
-                <img src="./assets/img/MUSIAD-Aze/carousel/photo4.jpg" alt="" />
+                <img src="./assets/img/MUSIAD-Aze/fealiyyetlerimiz/qarabag-destek.jpg" alt="" />
               </div>
               <div class="member-info">
                 <h5>
@@ -80,60 +65,19 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="single-team-member mb-40">
               <div class="team-img">
-                <img src="./assets/img/MUSIAD-Aze/carousel/photo6.jpg" alt="" />
+                <img src="./assets/img/MUSIAD-Aze/fealiyyetlerimiz/prezident.jpg" alt="" />
               </div>
               <div class="member-info">
                 <h5>Prezident İlham Əliyev şanlı bəyanat imzaladı.</h5>
-                <p>10-11-2020</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-team-member mb-40">
-              <div class="team-img">
-                <img src="./assets/img/MUSIAD-Aze/carousel/photo5.jpg" alt="" />
-              </div>
-              <div class="member-info">
-                <h5>17 Noyabr Milli Dirçəliş Günü</h5>
-                <p>30-11-2020</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-team-member mb-40">
-              <div class="team-img">
-                <img src="./assets/img/MUSIAD-Aze/carousel/photo3.jpg" alt="" />
-              </div>
-              <div class="member-info">
-                <h5>
-                  MÜSİAD Azərbaycan Dərnəyi Dağlıq Qarabağa yönəlik yardım
-                  kampaniyasını davam etdirməkdədir.
-                </h5>
-                <p>14-12-2020</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-team-member mb-40">
-              <div class="team-img">
-                <img src="./assets/img/MUSIAD-Aze/carousel/photo4.jpg" alt="" />
-              </div>
-              <div class="member-info">
-                <h5>
-                  Qarabağın işğaldan azad edilməsi münasibətilə təşkil edilmiş
-                  "Hərbi Parad"da MÜSİAD Azərbaycan olaraq iştirak etdik.
-                </h5>
-                <p>12-12-2020</p>
+                <p>10-11-2020ASAS</p>
               </div>
             </div>
           </div>
         </div>
+       
       </div>
     </section>
-    <!--====== Contact form area end ======-->
    <?php include_once "footer.php"; ?>

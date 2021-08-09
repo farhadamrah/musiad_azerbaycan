@@ -1,48 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 @charset "UTF-8";
-
-/*-----------------------------------------------------------------------------------
-
-    Template Name: Datapro
-    Description: One Page Agency HTML Template 
-    Author: webtend
-    Author URI: https://webtend.net/
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
-    CSS INDEX
-    ===================
-
-    01. Theme default css
-	02. Header css
-    03. Hero css
-    04. About css
-    05. Service css
-    06. Features css
-    07. Case css
-    08. Testimonial css
-    09. Team css
-    10. Blog css
-    11. Contact css
-    12. Footer css
-
------------------------------------------------------------------------------------*/
-
-/* 01.  Start Default css */
 
 html {
   font-size: 100%;
@@ -780,7 +736,7 @@ header .container-fluid {
 }
 
 .header-area-v1 .header-navigation .main-menu ul li > a {
-  padding: 37px 15px;
+  padding: 10px 15px;
 }
 
 .header-area-v1 .top-header-area,
@@ -832,6 +788,7 @@ header .container-fluid {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-align-items: center !important;
   height: 100%;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
@@ -1120,7 +1077,7 @@ header .container-fluid {
 }
 
 .hero-area {
-  padding: 220px 0 120px;
+  padding: 0 !important;
 }
 
 /* hero area */
@@ -1275,9 +1232,51 @@ header .container-fluid {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+.service-area .single-service-item:hover {
+  background-color: #222429;
+}
+.service-area .single-service-item:hover p {
+  color: #fff;
+}
+.service-area .single-service-item:hover h5 {
+  color: #ffb32f;
+}
+#komiteler .single-service-item {
+  background-color: transparent;
+  padding: 0px;
+  border-radius: 0px;
+}
+
+#komiteler .row {
+  display: flex;
+  justify-content: space-around !important;
+}
+#komiteler .komite-item {
+  flex: 0 0 30% !important;
+  text-align: center;
+}
+#komiteler .service-text h5 {
+  margin-top: 1rem;
+}
+#komiteler .service-text img {
+  width: 70%;
+}
+.komiteler .single-service-item svg {
+  width: 160px;
+  height: 160px;
+}
+.service-area .single-service-item .service-text:hover g {
+  fill: #ffa201;
+}
+#komiteler .service-area .single-service-item {
+  padding: 0px 30px;
+}
 
 .service-area .single-service-item h5 {
   margin-bottom: 20px;
+}
+.komite-title {
+  margin-bottom: 0px !important;
 }
 
 .service-area .single-service-item p {
@@ -1296,20 +1295,12 @@ header .container-fluid {
   transition: all 0.3s ease-in-out;
 }
 
-.service-area .single-service-item:hover {
-  background-color: #222429;
-}
-
-.service-area .single-service-item:hover h5 {
-  color: #fff;
-}
-
-.service-area .single-service-item:hover p {
-  color: #fff;
+.service-area .single-service-item .service-text:hover h5 {
+  color: #ffa201;
 }
 
 .service-area .single-service-item h5,
-.single-service-item p {
+#komiteler .service-text g {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -1467,7 +1458,7 @@ header .container-fluid {
 
 .counter-area .counter-wrapper {
   background-color: #ffaa17;
-  padding: 80px 60px 40px;
+  padding: 80px 3px 40px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -1510,7 +1501,7 @@ header .container-fluid {
 .counter-area .single-counter .icon {
   min-width: 45px;
   max-width: 60px;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 
 .counter-area .single-counter .info h2 {
@@ -2646,6 +2637,10 @@ textarea {
   color: #565872;
 }
 
+.birth-date_label {
+  display: none;
+}
+
 .sidebar-widget-area
   .widget.search-widget
   form
@@ -3235,8 +3230,9 @@ textarea {
 }
 
 .hero-area {
-  padding: 144px 0px 0px;
-  height: 100vh;
+  /* padding: 144px 0px 0px; */
+  height: calc(100vh - 144px);
+  margin-top: 144px;
 }
 
 #home .carousel,
@@ -3377,7 +3373,7 @@ textarea {
   justify-content: space-around;
 }
 
-.komite-container {
+/* .komite-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3386,8 +3382,8 @@ textarea {
   -ms-flex-direction: column;
   flex-direction: column;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
-}
+  justify-content: center;
+} */
 
 .komite-box {
   margin-right: 0.5rem;
@@ -3402,11 +3398,6 @@ textarea {
   list-style: none !important;
 }
 
-/* #komiteler .single-service-item {
-  min-height: 350px;
-  max-height: auto !important;
-} */
-
 .copyright-text a:hover {
   color: #ffaa17;
 }
@@ -3416,6 +3407,7 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -3428,12 +3420,12 @@ textarea {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 80%;
 }
 
 .tedbir-img {
-  min-width: 40%;
-  margin-right: 1.5rem;
+  min-width: 30%;
+  margin-right: 5rem;
+  align-self: center !important;
 }
 
 .tedbir-img img {
@@ -3472,8 +3464,7 @@ textarea {
 
 .table-striped {
   border: none;
-  /* width: 700px !important; */
-  /* width: auto; */
+  display: inline-table;
 }
 
 .sector-select {
@@ -3506,6 +3497,8 @@ textarea {
   text-align: center;
   font-size: 1.2rem;
   font-weight: 500;
+  vertical-align: middle;
+  height: 100px;
 }
 
 .table-striped td img {
@@ -3513,15 +3506,16 @@ textarea {
   max-width: 180px !important;
   /* min-width: 140px !important; */
   vertical-align: middle !important;
+  height: 100%;
 }
 
 .table-striped .tr td:first-child {
   vertical-align: middle !important;
 }
 
-.nice-select.open .list {
+/* .nice-select.open .list {
   width: 170px;
-}
+} */
 
 .list li,
 .current {
@@ -3536,7 +3530,7 @@ textarea {
   width: 160px !important;
 }
 
-.case-study .card {
+.idare .card {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.3s;
@@ -3544,7 +3538,7 @@ textarea {
   transition: 0.3s;
 }
 
-.case-study .card:hover {
+.idare .card:hover {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
@@ -3656,7 +3650,10 @@ tr.hover {
   z-index: -100;
 }
 #empty-komiteler {
-  top: 5%;
+  top: 1%;
+}
+#empty-uzvler {
+  top: -10%;
 }
 
 #metbuatda_biz .fa-plus {
@@ -3708,7 +3705,9 @@ tr.hover {
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   border-right: 2px solid black;
-  padding: 20px 60px 20px 10px;
+  padding: 20px 60px 0px 10px !important;
+  width: 100%;
+  height: 100%;
 }
 #statistika .row-right {
   display: -webkit-box;
@@ -3720,13 +3719,63 @@ tr.hover {
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  padding: 20px 60px 20px 10px;
+  padding: 20px 60px 0px 10px !important;
+  height: 100%;
+  width: 100%;
 }
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 70px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the front side */
+.flip-box-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  color: black;
+  transform: rotateX(180deg);
+  font-size: 35px;
+}
+
 .counter-area .single-counter .info h2 {
   font-size: 40px;
 }
 .counter-area .counter-wrapper {
-  padding: 80px 50px 40px;
+  padding: 80px 3px 25px !important;
 }
 
 .main-musiad {
@@ -3754,6 +3803,160 @@ tr.hover {
   height: 100% !important;
 }
 
+#tedbirler .section-title h2 {
+  color: black;
+  margin-top: 5rem;
+  font-weight: 600;
+  font-size: 3rem;
+}
+.idare .section-title h2 {
+  font-size: 60px;
+  color: #ffb32f;
+  text-shadow: 0px 0px 2px black;
+  letter-spacing: 2.3;
+}
+.card-profile {
+  height: 350px;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.modal {
+  width: 100%;
+}
+.modal.show .modal-dialog {
+  max-width: 70%;
+}
+.modal-open .modal {
+  top: 5% !important;
+}
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px 30px 30px;
+  width: 100%;
+}
+.modal-content .close {
+  position: absolute;
+  right: 1.5%;
+  box-sizing: revert;
+  top: 1%;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px black;
+  color: #ffa201;
+}
+.modal-left {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.modal-left__profile img {
+  flex: 0.8;
+  margin-bottom: 10px;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.modal-left__contacts {
+  flex: 0.2;
+}
+.modal-left__contacts h4 {
+  color: #f3a218;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+.modal-left__contacts a {
+  font-weight: 600;
+}
+.modal-left__contacts a i {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.modal-right {
+  flex: 0.67;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modal-right__title {
+  color: #f3a218;
+}
+.modal-right hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.modal-right__subtitle {
+  color: #707070;
+}
+.modal-right__article {
+  color: #3e4043;
+  text-align: justify;
+}
+
+.reklam-mobile {
+  display: none;
+}
+
+.contact-form__container {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-form {
+  flex: 0.5;
+}
+.contact-form__info {
+  flex: 0.4 !important;
+}
+.contact-form__info > p {
+  line-height: 1.8rem !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.contact-form__info > p span {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.contact-form__info > p > i {
+  margin-right: 1.5rem;
+  width: 1rem;
+  font-size: 1.5rem;
+}
+.form_group {
+  width: 100%;
+}
+.contact-form .main-btn {
+  margin-top: 0px;
+}
+
+.akademi-svg,
+.istehsalat-svg {
+  width: 125px !important;
+}
+
+.komite-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+.komite-row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+.komite-row .service-text h5 {
+  color: #43525a !important;
+}
+.komite-row .service-text:hover h5 {
+  color: #bb9c46 !important;
+}
+
+
 @media (min-width: 1200px) {
   .tarixce {
     margin-left: auto !important;
@@ -3762,8 +3965,36 @@ tr.hover {
   .card-container .row {
     width: 80%;
   }
-  #komiteler .single-service-item {
+  /* #komiteler .single-service-item {
     min-height: 380px;
+  } */
+  .header-area-v1 .header-navigation .nav-toggle {
+    height: auto !important;
+  }
+  .modal-content {
+    padding: 50px;
+  }
+
+  #statistika .info #menteqe {
+    font-size: 1rem;
+  }
+  .modal-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .modal-left__profile img {
+    max-height: 350px;
+    margin-right: 1.5rem;
+  }
+  .modal-left__contacts a {
+    display: flex;
+    margin-bottom: 0.2rem;
+  }
+
+  .komite-container .komite-item,
+  .komite-row .komite-item {
+    padding: 0.7rem;
   }
 }
 
@@ -3771,13 +4002,14 @@ tr.hover {
   .hero-area {
     padding: 0 0 4px;
     height: 600px;
+    margin-top: 55px;
   }
   .card-container .row {
     width: 100%;
   }
-  #komiteler .single-service-item {
+  /* #komiteler .single-service-item {
     min-height: 470px;
-  }
+  } */
   .header-navigation .navbar-close .cross-wrap span {
     background-color: #222222 !important;
   }
@@ -3836,31 +4068,19 @@ tr.hover {
     font-weight: bold;
     font-size: 25px;
   }
+  #statistika .info h4 {
+    font-size: 2rem;
+  }
 
   #statistika .container {
     max-width: 850px;
   }
+  #statistika .d-flex .align-items-center {
+    margin-left: 90px;
+  }
   .counter-area .counter-wrapper {
     padding: 80px 10px 0px;
   }
-
-  /* .main-menu {
-    height: 90%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: red;
-  } */
-  /* .main-menu ul {
-    width: 100%;
-  } */
 
   .mobile-logo {
     margin-bottom: 100px;
@@ -3907,6 +4127,107 @@ tr.hover {
     position: absolute;
     bottom: 5%;
   }
+
+  .tedbir-container {
+    padding-top: 160px;
+  }
+
+  .modal-right hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .modal-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .modal-left__profile {
+    flex: 0.7;
+  }
+  .modal-left__contacts a {
+    display: flex;
+  }
+  .modal-right__article {
+    line-height: 1.5;
+  }
+  .idare .section-title {
+    margin-top: 20px;
+  }
+
+  #uzvler .section-title {
+    margin-bottom: 25px;
+  }
+  #uzvler .col-md-12 .text-center .mt-40 {
+    margin-top: 50px;
+  }
+
+  .header-area-v1 .header-navigation .site-branding .brand-logo {
+    padding: 18px 5px !important;
+  }
+
+  .dd-trigger {
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  #elaqe .section-title {
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  #elaqe .section-title > h2 {
+    font-size: 50px;
+  }
+
+  .tedbir-section {
+    padding-top: 0rem;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .tedbir-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 5px 15px 0;
+    margin: 0;
+    /* padding-top: 60px; */
+  }
+  .tedbir-img {
+    margin-right: 0;
+    width: 80%;
+  }
+  .tedbir-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+  }
+  .tedbir-article h1 {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+  .tedbir-article p {
+    line-height: 1.4;
+  }
+
+  .komite-container .komite-item,
+  .komite-row .komite-item {
+    padding: 0.7rem;
+  }
 }
 
 @media (max-width: 996px) {
@@ -3933,8 +4254,7 @@ tr.hover {
     align-items: center !important;
   }
   #komiteler .single-service-item {
-    min-height: 685px;
-    /* max-height: 620px; */
+    min-height: auto !important;
   }
 
   #haqqimizda .tarixce .single-service-item {
@@ -3952,14 +4272,70 @@ tr.hover {
     font-size: 32px;
   }
   #statistika .icon {
-    min-width: 33px;
-    max-width: 45px;
+    min-width: 50px;
+    max-width: 50px;
     margin-right: 15px;
   }
   #statistika .col-md-6 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 42%;
-    flex: 0 0 42%;
+    -ms-flex: 0 0 0;
+    flex: 0 0 0;
+  }
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 30px 30px;
+  }
+  .modal-content .close {
+    right: 1.5%;
+    top: 0;
+  }
+  .modal-left {
+    display: flex;
+    flex: 0.5;
+    flex-direction: row;
+    /* justify-content: space-around; */
+  }
+  .modal-left__profile img {
+    flex: 0.5;
+  }
+  .modal-left__contacts {
+    flex: 0.4;
+    margin-top: 20px;
+  }
+  .modal {
+    top: 10%;
+  }
+
+  #komiteler .modal.show .modal-dialog {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .birth-date_label {
+    display: block !important;
+    font-weight: 600 !important;
+    color: #363636 !important;
+    position: absolute;
+    top: 21px;
+    left: 22px;
+  }
+
+  .contact-form {
+    flex: 0.8;
+  }
+  .contact-form__info {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+  }
+  #elaqe iframe {
+    margin-bottom: 1rem;
+  }
+
+  #komiteler .container {
+    max-width: 90% !important;
   }
 }
 
@@ -4038,14 +4414,55 @@ tr.hover {
     font-size: 32px;
   }
   #statistika .icon {
-    min-width: 28px;
-    max-width: 42px;
+    height: 50px;
+    min-width: 50px;
     margin-right: 10px;
   }
   #statistika .col-md-6 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 37%;
-    flex: 0 0 37%;
+    -ms-flex: 0 0 0;
+    flex: 0 0 0;
+  }
+  #statistika .d-flex .align-items-center {
+    margin-left: 35px;
+  }
+
+  .idare .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #terefdashliq {
+    width: 16rem !important;
+  }
+  .komiteler .single-service-item svg {
+    width: 150px;
+  }
+  #komiteler .service-text h5 {
+    font-size: 1.5rem;
+  }
+  #komiteler .single-service-item {
+    min-height: auto;
+    width: 15rem;
+  }
+  #komiteler .komite-item {
+    flex: 0 0 0% !important;
+  }
+
+  #elaqe .contact-form__info {
+    flex: 0.8;
+  }
+
+  .modal-left {
+    flex-direction: column;
+  }
+
+  .komite-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
   }
 }
 
@@ -4056,47 +4473,17 @@ tr.hover {
   .service-area {
     padding-top: 3rem;
   }
-  .tedbir-section {
-    padding-top: 5rem;
-    padding-left: 0;
-    padding-right: 0;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+
+  #tedbirler .section-title h2 {
+    margin-top: -1.5rem !important;
+    font-weight: 600;
+    font-size: 2.2rem !important;
+    margin-bottom: -3rem !important;
   }
-  .tedbir-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 90%;
-    padding: 0;
-    margin: 0;
+  #tedbirler {
+    padding-bottom: 30px;
   }
-  .tedbir-img {
-    margin-right: 0;
-    width: 100%;
-  }
-  .tedbir-img img {
-    width: 100%;
-    height: 15rem;
-  }
-  .tedbir-article h1 {
-    margin-top: 1.5rem;
-    font-size: 1.3rem;
-    line-height: 1.6rem;
-  }
+
   .case-study {
     padding-top: 70px !important;
   }
@@ -4190,7 +4577,7 @@ tr.hover {
     margin-right: 20px !important;
   }
 
-  /* #komiteler .col-xl-6 {
+  /* #komiteler .komite-item {
     max-height: auto !important;
   } */
 
@@ -4208,24 +4595,216 @@ tr.hover {
     padding: 13px !important;
   }
 
-  #statistika .info p {
-    font-size: 0.8rem;
+  #statistika .row-left,
+  #statistika .row-right {
+    padding: 10px 0px 0px 0px;
+  }
+
+  #statistika .info #menteqe {
+    font-size: 1.3rem;
   }
   #statistika .info h2 {
-    font-size: 23px;
+    font-size: 2rem;
+  }
+  #statistika .info h4 {
+    font-size: 1.3rem;
   }
   #statistika .icon {
-    min-width: 25px;
-    max-width: 36px;
+    height: 40px;
+    min-width: 40px;
     margin-right: 8px;
   }
   #statistika .col-md-6 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 32%;
-    flex: 0 0 32%;
+    -ms-flex: 0 0 0;
+    flex: 0 0 0;
   }
   #statistika .row h1 {
     font-size: 26px !important;
+  }
+  .modal.show .modal-dialog {
+    max-width: 100%;
+  }
+  .card-container .card {
+    min-width: 20rem;
+  }
+
+  #terefdashliq {
+    width: 16rem !important;
+  }
+  .komiteler .single-service-item svg {
+    width: 100px;
+    height: auto;
+  }
+  #komiteler .service-text h5 {
+    font-size: 1rem;
+  }
+  #komiteler .single-service-item {
+    min-height: auto;
+    width: 8rem;
+  }
+  #komiteler .modal.show .modal-dialog {
+    max-width: 95% !important;
+    top: 5% !important;
+  }
+  #komiteler .modal-content {
+    padding: 30px 15px 25px 15px !important;
+  }
+  #komiteler .close {
+    top: -35px !important;
+    right: -7px !important;
+  }
+
+  #elaqe .contact-form__container {
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #elaqe iframe {
+    width: 100%;
+  }
+
+  #elaqe .section-title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  #elaqe .section-title h2 {
+    font-size: 40px;
+  }
+
+  .tedbir-section {
+    padding-top: 0rem;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .tedbir-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 5px 15px 0;
+    margin: 0;
+    /* padding-top: 60px; */
+  }
+  .tedbir-img {
+    margin-right: 0;
+    width: 80%;
+  }
+  .tedbir-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 0rem;
+  }
+  .tedbir-article h1 {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+  .tedbir-article p {
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 450px) {
+  .modal-left {
+    flex-direction: column;
+  }
+  .modal-left__profile {
+    background-size: contain !important;
+    flex: 3;
+  }
+  .idare .section-title h2 {
+    font-size: 45px;
+  }
+
+  #statistika .row-left,
+  #statistika .row-right {
+    padding: 10px 20px 0px 0px !important;
+  }
+  #statistika .info h2 {
+    font-size: 1.3rem;
+  }
+  #statistika .info h4 {
+    font-size: 0.9rem;
+  }
+
+  #statistika .info #menteqe {
+    font-size: 0.7rem;
+  }
+  #statistika .icon {
+    height: 35px;
+    min-width: 35px;
+    margin-right: 5px;
+  }
+  #statistika .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 0;
+    flex: 0 0 0;
+    margin-right: 35px;
+  }
+
+  .reklam-logo {
+    display: none;
+  }
+  #home .carousel,
+  #home .carousel-inner,
+  #home .carousel-item,
+  #home .carousel-inner .active {
+    width: 100%;
+  }
+  .reklam-mobile {
+    display: block;
+    width: 100%;
+    height: 104px;
+    background: #1c1e22;
+  }
+
+  .komite-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  #komiteler .single-service-item {
+    width: 100%;
+  }
+  .komiteler .single-service-item svg {
+    width: 160px;
+  }
+  #komiteler .service-text h5 {
+    margin-top: 0rem;
+  }
+  .komite-item,
+  .komite-item .komite-title {
+    margin-top: 1rem !important;
+  }
+  .komite-row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 376px) {
+  #statistika .col-md-6 {
+    margin-right: 0;
+  }
+  #statistika .d-flex .align-items-center {
+    margin-left: 27px;
+    justify-content: space-evenly;
+    width: 19rem;
   }
 }
 
@@ -4255,6 +4834,9 @@ tr.hover {
   }
   .counter-area .counter-wrapper {
     padding: 60px 10px 0px;
+  }
+  .modal-right__title {
+    font-size: 1.5rem;
   }
 }
 
@@ -4293,10 +4875,14 @@ tr.hover {
     + .carousel-item {
     position: absolute;
     top: 0;
-    right: -50%; /*change this with javascript in the future*/
-    z-index: -1;
+    right: 0%; /*change this with javascript in the future*/
+    /* z-index: -1; */
     display: block;
     visibility: visible;
+  }
+
+  #carousel-example-1 .carousel-item {
+    margin-right: 1px !important;
   }
 }
 @media (min-width: 576px) {
@@ -4691,7 +5277,7 @@ tr.hover {
   height: auto !important;
 }
 #uzvler .container {
-  height: 20% !important;
+  height: 13% !important;
 }
 
 #uzvler .carousel-control-prev {
@@ -4706,4 +5292,17 @@ tr.hover {
 .carousel-control-prev-icon {
   background-color: #ffa201;
   border-radius: 50%;
+}
+
+.hero-area {
+  display: flex;
+  background-color: #1c1e22;
+}
+#carouselExampleIndicators {
+  width: calc(100% - 218px);
+}
+.reklam-logo {
+  width: 110px;
+  height: 100%;
+  padding: 5px 0;
 }

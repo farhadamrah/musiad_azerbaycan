@@ -1,11 +1,10 @@
 <?php 
 include_once "header.php"; ?>
-    <!--====== Heading area end ======-->
-    <!--====== Hero area start ======-->
+ 
     <section class="case-study pt-200 pb-80 pl-25 pr-40 tedbir-section">
       <div class="tedbir-container">
         <div class="tedbir-img">
-          <img src="/assets/img/MUSIAD-Aze/tedbirler/bayra123.jpg" alt="" />
+          <img src="./assets/img/MUSIAD-Aze/tedbirler/bayra123.jpg" alt="" />
         </div>
         <div class="tedbir-article">
           <h1 class="mb-18 fs-2">
@@ -38,6 +37,5 @@ include_once "header.php"; ?>
         </div>
       </div>
     </section>
-    <!--====== Contact form area end ======-->
     <?php 
 include_once "footer.php"; ?>

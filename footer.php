@@ -25,22 +25,22 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="social-media-links mb-20">
-              <ul>
-                <li>
-                  <a href="https://www.facebook.com/musiad.az/"><i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/MusiadB"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/musiadbaku/?hl=tr"><i class="fab fa-instagram"></i></a>
-                </li>
-              </ul>
+            <ul>
+                    <li>
+                      <a href="https://www.facebook.com/MUSIADAzerbaycan" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/MusiadB" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/musiadazerbaycan/?hl=tr" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                  </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer-widget pt-85 mb-60">
+      <div class="footer-widget pt-0 mb-0">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-12" style="margin-right: -100px">
             <div class="widget about-widget mb-45">
@@ -92,10 +92,10 @@
                   Bakıxanov 48C Nəsimi Bakı/Azərbaycan AZ1007
                 </p>
                 <p>
-                  <i class="fa fa-envelope"></i><a href="mailto:yourmail.@gmail.com">info@musiad.az</a>
+                  <i class="fa fa-envelope"></i><a href="mailto:info@musiad.az">info@musiad.az</a>
                 </p>
                 <p>
-                  <i class="fa fa-phone"></i><a href="tel:0123456789101"> +994 12 440 06 90</a>
+                  <i class="fa fa-phone"></i><a href="tel:+994124400690">+994 12 440 06 90</a>
                 </p>
               </div>
             </div>
@@ -108,7 +108,7 @@
                 Tədbirlərimizdən xəbərdar olmaq üçün üzv ola bilərsiniz.
               </p>
               <div class="nav-button d-flex justify-content-center mt-15 mr-0">
-                <a href="https://www.musiad.org.tr/" target="_blank" class="main-btn" class="nav-link">Bizə yazın</a>
+                <a href="index.php#uzvluk_form" target="_blank" class="main-btn" class="nav-link">Bizə yazın</a>
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@
         <div class="col-md-12">
           <div class="copyright-text text-center">
             <p>
-              Copyright 2021 by
+                Müəllif hüquqları qorunur © 2021 |
               <a href="https://butagrup.com.tr/?lang=az" target="_blank">ButaGrup</a>
             </p>
           </div>
@@ -156,7 +156,7 @@
 <!--====== Main Script ======-->
 <script src="assets/js/custom.js"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
 </body>
 

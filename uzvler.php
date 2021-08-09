@@ -1,7 +1,6 @@
 <?php
 include_once "header.php"; ?>
 
-
 <section class="case-study uzvler pt-200 pb-80 pl-25 pr-25">
   <h1 class="text-center mb-30 uzv-title">Üzvlər</h1>
 
@@ -57,6 +56,7 @@ include_once "header.php"; ?>
     </table>
   </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
   $(document).ready(function() {
     $('table tr').click(function() {
