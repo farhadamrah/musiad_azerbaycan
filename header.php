@@ -10,11 +10,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!--====== Title ======-->
     <title>MÜSİAD Azərbaycan</title>
-    <link rel="shortcut icon" href="assets/img/icons/favicon.ico" type="image/x-icon"/>  
+    <link rel="shortcut icon" href="assets/img/icons/favicon.ico"/>  
+    <meta content="MÜSİAD Azərbaycan - Müstəqil Sənayeçi və İş Adamları Dərnəyi." name="description" />
+    <meta content="MÜSİAD,müsiad,dərnək,komitə,üzv,qlobal komitə,karz-i hasen fondu,üzvlərlə əlaqə,akademiya komitəsi,korporativ münasibətlər,təsərrüfat və turizmin inkişafı,istehsal və ticarət komitəsi"k name="keywords" />
+    <meta name="website" content="https://musiad.az/" />
+    <meta property="og:image" content="assets/img/MUSIAD-Aze/logo/logo-musiad-black.png" />
+    <meta content="MÜSİAD Azərbaycan" name="author" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
 
     <!--====== Bootstrap ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        
     <!--====== Fontawesome ======-->
     <link rel="stylesheet" href="assets/fonts/fontawesome/css/fontawesome.all.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -89,9 +97,7 @@
                     <li>
                       <a href="https://www.facebook.com/MUSIADAzerbaycan" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     </li>
-                    <li>
-                      <a href="https://twitter.com/MusiadB" target="_blank"><i class="fab fa-twitter"></i></a>
-                    </li>
+                   
                     <li>
                       <a href="https://www.instagram.com/musiadazerbaycan/?hl=tr" target="_blank"><i class="fab fa-instagram"></i></a>
                     </li>
@@ -120,6 +126,7 @@
                       <li><a href="idare-heyeti.php">İdarə heyəti</a></li>
                       <li><a href="index.php#empty-komiteler">Komitələr</a></li>
                       <li><a href="uzvler.php">Üzvlər</a></li>
+                      <li><a href="tanitim.php" style="text-transform:none !important">MÜSİAD ilə Tanış Olun</a></li>
                     </ul>
                   </li>
                   <li class="menu-item menu-item-has-children">
@@ -169,6 +176,7 @@
                       <li><a href="idare-heyyeti.php">İdarə heyəti</a></li>
                       <li><a href="index.php#empty-komiteler">Komitələr</a></li>
                       <li><a href="index.php#empty-uzvler">Üzvlər</a></li>
+					  <li><a href="tanitim.php">MÜSİAD ilə Tanış Olun</a></li>
                     </ul>
                   </li>
                   <li class="menu-item menu-item-has-children">

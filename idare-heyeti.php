@@ -11,37 +11,40 @@ include_once "header.php";?>
     </div>
 
 
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal fade" id="abdurrahman" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-body">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <div class="modal-left">
-              <div class="modal-left__profile">
-              <img src="./assets/img/MUSIAD-Aze/idare-heyyeti/abdurrahman.png" alt="">
-               </div>
-              <div class="modal-left__contacts">
-                <h4>Əlaqə Məlumatları</h4>
-                <a href="https://twitter.com/ArahmanUzun" target="_blank">
-                  <i class="fab fa-twitter" style="font-size: 1.5rem"></i>
-                  /ArahmanUzun
-                </a>
-                <a href="mailto:abdurrahman.uzun@zivella.com" target="_blank">
-                  <i class="far fa-envelope" style="font-size: 1.5rem"></i>
-                  abdurrahman.uzun@zivella.com
-                </a>
-              </div>
-            </div>
-            <div class="modal-right">
+
+            <div class="body-header">
               <h2 class="modal-right__title">ABDURRAHMAN UZUN</h2>
-              <hr>
               <h3 class="modal-right__subtitle">İdarə Heyəti Sədri</h3>
-              <p class="modal-right__article">1979 yılında Rize'de doğdu. Lise öğrenimini 1996 yılında Rize Lisesi'nde tamamladı.
-                1999 yılında kardeşi ile birlikte Mesut Mobilya'yı kuran Uzun, 2000 yılında Gürcistan'a yaptığı ihracatla, ticari faaliyetlerini yurt dışına taşıdı.2004 yılında Azerbaycan Bakü'de mağaza açtı ve 6 yıl boyunca burada çalıştı. 2010 yılında Türkiye'ye dönen Uzun, 2012 yılında üretime odaklandı ve kendi fabrikasında üretime başladı. 2016 yılında Zivella markasını, tasarım odaklı bir kurum haline getirdi.
-                MÜSİAD Rize Kurucu Yönetim Kurulu Üyesi ve MÜSİAD Azerbaycan Kurucu Başkanı olan Uzun, MÜSİAD Yönetim Kurulu'nda yer alıyor ve MÜSİAD Akademi Komitesi Başkanlığı görevini de üstleniyor.
-              </p>
+              <div class="modal-contact">
+                <a href="https://twitter.com/ArahmanUzun" target="_blank">
+                <i class="fab fa-twitter" style="font-size: 1.5rem"></i>
+                /ArahmanUzun
+              </a>
+              <a href="mailto:abdurrahman.uzun@zivella.com" target="_blank">
+                <i class="far fa-envelope" style="font-size: 1.5rem"></i>
+                abdurrahman.uzun@zivella.com
+              </a>
+            </div>
+              <hr>
+            <div class="article-image">
+                <p class="modal-article">              
+                  <img class='modal-image' src="./assets/img/MUSIAD-Aze/idare-heyyeti/abdurrahman.png" alt="img">
+                  1979-cu ildə Rize-də doğulmuşdur. Orta məktəb təhsilini 1996-cı ildə Rize Orta məktəbində tamamlamışdır.
+                  1999-cu ildə qardaşı ilə birgə “Mesut Mobilya” şirkətini quran Uzun, 2000-ci ildə Gürcüstana etdiyi
+                  ixracatla ticarət fəaliyyətini xaricə daşımışdır. 2004-cü ildə Azərbaycanın Bakı şəhərində öz 
+                  mağazasını açmış və 6 il müddətində burada fəaliyyət göstərmiştir. 2010-cu ildə Türkiyəyə qayıdan Uzun,
+                  2012-ci ildə istehsalata diqqətini yönəldərək öz fabrikində istehsala başlamışdır. 2016-cı ildə 
+                  “Zivella” markasını dizayn yönümlü bir quruma çevirmişdir. “MÜSİAD Rize”-nin İdarə Heyətinin Qurucu Üzvü
+                  və “MÜSİAD Azərbaycan”-nın Qurucu Prezidenti olan Uzun, "MÜSİAD İdarə Heyətinin" Üzvüdür.
+                </p>
+             </div>
             </div>
           </div>
         </div>
@@ -65,14 +68,14 @@ include_once "header.php";?>
                     justify-content-between
                     align-items-center
                   ">
-              <a style="
+              <a href="mailto:abdurrahman.uzun@zivella.com" target="_blank" style="
                       border-right: 1px solid rgba(128, 128, 128, 0.274);
                       padding-right: 30px;
                       vertical-align: middle;
                     ">
                 <i class="far fa-envelope" style="font-size: 1.5rem"></i>
               </a>
-              <a style="
+              <a href="https://twitter.com/ArahmanUzun" target="_blank" style="
                       border-right: 1px solid rgba(128, 128, 128, 0.274);
                       padding-right: 30px;
                       vertical-align: middle;
@@ -80,7 +83,7 @@ include_once "header.php";?>
                 <i class="fab fa-twitter" style="font-size: 1.5rem"></i>
               </a>
 
-              <a class="font-weight-bold" data-toggle="modal" data-target="#exampleModalLong">
+              <a class="font-weight-bold" data-toggle="modal" data-target="#abdurrahman">
                 Haqqında<i class="fas fa-arrow-right ml-2"></i>
               </a>
             </div>
@@ -190,6 +193,49 @@ include_once "header.php";?>
             </div>
           </div>
         </div>
+
+    <div class="modal fade" id="alim" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+            <div class="body-header">
+              <h2 class="modal-right__title">ALİM ŞENTÜRK</h2>
+              <h3 class="modal-right__subtitle">İdarə Heyətinin Üzvü</h3>
+              <div class="modal-contact">
+              <a href="https://twitter.com/alimsenturk" target="_blank">
+                  <i class="fab fa-twitter" style="font-size: 1.5rem"></i>
+                  /alimsenturk
+                </a>
+                <a href="mailto:alim.senturk@bayburtgrup.com.tr" target="_blank">
+                  <i class="far fa-envelope" style="font-size: 1.5rem"></i>
+                  alim.senturk@bayburtgrup.com.tr
+                </a>
+            </div>
+              <hr>
+            <div class="article-image">
+                <p class="modal-article">              
+                  <img class='modal-image' src="./assets/img/MUSIAD-Aze/idare-heyyeti/alim-senturk.png" alt="img">
+                  1984-cü ildə Bayburt şəhərində anadan olmuşdur. Orta təhsilini 1995-2002-ci illərdə Ankara Atatürk
+                  liseyində almışdır. 2003-cü ildə Atılım Universitetinin Sənaye Mühəndisliyi, 2008-ci ildə isə 
+                  Anadolu Universitetinin Menecment fakültəsinə qəbul olmuşdur. 2015-ci ildə Bakı Mühəndislik 
+                  Universitetinin Sənaye Mühəndisliyi fakültəsini, 2017-ci ildə isə ADA Universiteti və Hollandiya, 
+                  “Maastricht School of Management”-in MBA dərəcəsini bitirmişdir. 2008-2012-ci illərdə “Bayburt Qrup
+                  Türkiyə”-də işləmiş, 2012-ci ildən etibarən isə fəaliyyətini Azərbaycanda davam etdirmişdir. 
+                  2012-ci ildən “Bayburt Grup A.Ş.”-nin, 2013-cü ildən “Özgün Yapı Sanayi ve Ticaret A.Ş”-nin 
+                  AR-dakı filialında Rəhbər olaraq fəaliyyət göstərir. 2019-cu ildən "MÜSİAD Azərbaycan 
+                  Akademiyası"-nın “Komitə Sədri”, 2021-ci ildən isə “İdarə Heyətinin Üzvü” kimi fəaliyyətinə 
+                  davam edir.
+                </p>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
         <div class="card" style="width: 19rem">
           <img class="card-img-top" src="./assets/img/MUSIAD-Aze/idare-heyyeti/alim-senturk.png" alt="Card image cap" />
           <div class="card-body pt-0">
@@ -202,21 +248,22 @@ include_once "header.php";?>
                     justify-content-between
                     align-items-center
                   ">
-              <a style="
+                
+              <a href="mailto:alim.senturk@bayburtgrup.com.tr" target="_blank" style="
                       border-right: 1px solid rgba(128, 128, 128, 0.274);
                       padding-right: 30px;
                       vertical-align: middle;
                     ">
                 <i class="far fa-envelope" style="font-size: 1.5rem"></i>
               </a>
-              <a style="
+              <a href="https://twitter.com/alimsenturk" target="_blank" style="
                       border-right: 1px solid rgba(128, 128, 128, 0.274);
                       padding-right: 30px;
                       vertical-align: middle;
                     ">
                 <i class="fab fa-twitter" style="font-size: 1.5rem"></i>
               </a>
-              <a class="font-weight-bold">
+              <a class="font-weight-bold" data-toggle="modal" data-target="#alim">
                 Haqqında<i class="fas fa-arrow-right ml-2"></i>
               </a>
             </div>

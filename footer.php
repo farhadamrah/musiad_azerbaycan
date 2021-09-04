@@ -29,9 +29,7 @@
                     <li>
                       <a href="https://www.facebook.com/MUSIADAzerbaycan" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     </li>
-                    <li>
-                      <a href="https://twitter.com/MusiadB" target="_blank"><i class="fab fa-twitter"></i></a>
-                    </li>
+                    
                     <li>
                       <a href="https://www.instagram.com/musiadazerbaycan/?hl=tr" target="_blank"><i class="fab fa-instagram"></i></a>
                     </li>
@@ -122,8 +120,8 @@
         <div class="col-md-12">
           <div class="copyright-text text-center">
             <p>
-                Müəllif hüquqları qorunur © 2021 |
-              <a href="https://butagrup.com.tr/?lang=az" target="_blank">ButaGrup</a>
+                Müəllif hüquqları qorunur © 2021 | 
+              <a href="https://butagrup.com.tr/?lang=az" target="_blank" style="margin-left: 10px"> Buta Grup</a>
             </p>
           </div>
         </div>

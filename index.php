@@ -25,21 +25,28 @@ include_once "header.php"; ?>
 							<h4>MÜSİAD Yeni Ümumi Mərkəzin Açılışı</h4>						
 						</div>
 					</div>
+					<div class="carousel-item" style="background-image: url('./assets/img/MUSIAD-Aze/carousel/IBF.jpg');">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>25 -ci Beynəlxalq İş Forumu (IBF) 2021 -ci ilin noyabrında Azərbaycanın paytaxtı Bakıda keçiriləcək.
+								Konfranslar, B2B görüşləri, yarmarkalar və beynəlxalq iş görüşmələrini əhatə edəcək proqram 320 milyonluq bir bazara çıxışı təmin edəcək.</h5>
+						</div>
+					</div>
 					<div class="carousel-item" style="background-image: url('./assets/img/MUSIAD-Aze/carousel/network-gorush.jpg');">
 						<div class="carousel-caption d-none d-md-block">
 							<h4>"MÜSİAD Azərbaycan Şəbəkə İclasları" yenidən başladı.</h4>
 						</div>
 					</div>
-					<div class="carousel-item" style="background-image: url('./assets/img/MUSIAD-Aze/carousel/qurtulush-gunu.jpg'); background-position:top">
+					<div class="carousel-item" style="background-image: url('./assets/img/MUSIAD-Aze/carousel/fhn-turkiye.jpg'); background-position:top">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>Xalqımızı 15 iyun - Milli Qurtuluş Günü münasibətilə səmimi qəlbdən təbrik edir, müstəqillimizin əbədi və sarsılmaz olmasını arzulayırıq.</h5>							
+							<h5>Azərbaycan Prezidenti Cənab İlham Əliyevin tapşırığı və Fövqəladə Hallar Naziri Cənab Kəmaləddin Heydərovun koordinasiyası ilə,
+								ölkəmizdəki meşə yanğınlarının söndürülməsi üçün 4-cü qrup  200 yanğınsöndürən Dalaman'a yola salındı.</h5>							
 						</div>
-					</div>
-					<div class="carousel-item" style="background-image: url('./assets/img/MUSIAD-Aze/carousel/qarabag-destek.jpg');">
+					</div>	
+					<div class="carousel-item" style="background-image: url('./assets/img/MUSIAD-Aze/carousel/uzv_yemeyi.jpg'); background-position:center; ">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>MÜSİAD Azərbaycan olaraq 30 ildən sonra, 44 gün ərzində qısa müddət ərzində Qarabağımızın qəhrəman ordumuz tərəfindən işğaldan azad edilməsinə həsr olunmuş "Zəfər Mərasimində" yerimizi tutduq.</h5>
+							<h5>MÜSİAD Azərbaycan Ənənəvi Üzv Səhər yeməyi proqramı. Proqram yeməyi Şirvanşah oteldə təşkil edildi.</h5>							
 						</div>
-					</div>			
+					</div>		
 					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
 					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
 				</div>
@@ -185,41 +192,41 @@ include_once "header.php"; ?>
 				<div class="row">
 					<div class="col-lg-3 col-md-6">
 						<div class="single-team-member mb-40">
-							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/fealiyyetlerimiz/prezident.jpg" alt="" /> </div>
+							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/carousel/IBF.jpg" alt="" /> </div>
 							<div class="member-info">
-								<h5>Prezident İlham Əliyev şanlı bəyanat imzaladı.</h5>
-								<p>10-11-2020</p>
+								<h5>25 -ci Beynəlxalq İş Forumu (IBF) 2021 -ci ilin noyabrında Azərbaycanın paytaxtı Bakıda keçiriləcək.</h5>
+								<p>10-08-2021</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="single-team-member mb-40">
-							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/fealiyyetlerimiz/dircelish-gunu.jpg" alt="" /> </div>
-							<div class="member-info">
-								<h5>17 Noyabr Milli Dirçəliş Günü</h5>
-								<p>17-11-2020</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="single-team-member mb-40">
-							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/fealiyyetlerimiz/qarabag-yardim.jpg" alt="" /> </div>
+							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/carousel/uzv_yemeyi.jpg" alt="" /> </div>
 							<div class="member-info">
 								<h5>
-                MÜSİAD Azərbaycan Dərnəyi Dağlıq Qarabağa yönəlik yardım kampaniyasını davam etdirməkdədir.
-              </h5>
-								<p>14-12-2020</p>
+									MÜSİAD Azərbaycan Ənənəvi Üzv Səhər yeməyi proqramı Şirvanşah oteldə baş tutmuşdur.
+              					</h5>
+								<p>07-08-2021</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="single-team-member mb-40">
-							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/carousel/qarabag-destek.jpg" alt="" /> </div>
+							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/carousel/fhn-turkiye.jpg" alt="" /> </div>
 							<div class="member-info">
 								<h5>
-                Qarabağın işğaldan azad edilməsi münasibətilə təşkil edilmiş "Hərbi Parad"da MÜSİAD Azərbaycan olaraq iştirak etdik.
-              </h5>
-								<p>12-12-2020</p>
+									Azərbaycan Prezidenti Cənab İlham Əliyevin tapşırığı və Fövqəladə Hallar Naziri Cənab Kəmaləddin Heydərovun koordinasiyası ilə, ölkəmizdəki meşə yanğınlarının söndürülməsi üçün 4-cü qrup 200 yanğınsöndürən Dalaman'a yola salındı.
+              					</h5>
+								<p>07-08-2021</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="single-team-member mb-40">
+							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/fealiyyetlerimiz/orman_destek.jpg" alt="" /> </div>
+							<div class="member-info">
+								<h5>#MÜSİADAzərbaycan olaraq, daha yaşıl bir Türkiyə və daha yaşıl bir gələcək üçün yanan meşələrimizi yenidən yaşıllaşdırmaq üçün Biz də varıq.</h5>
+								<p>01-08-2021</p>
 							</div>
 						</div>
 					</div>
@@ -240,24 +247,28 @@ include_once "header.php"; ?>
 				<div class="masonry-row row">
 					<div class="col-lg-4 col-md-6 col-sm-12 ui-ux case-column">
 						<div class="single-case-study">
-							<div class="case-img"> <img src="assets/img/MUSIAD-Aze/metbuat/lider.jpg" alt="" />
+							<div class="case-img"> <img src="assets/img/MUSIAD-Aze/metbuat/hicri.jpg" alt="" />
 								<div class="case-overlay">
-									<div class="case-study-info"> <a href="#" class="icon"><i class="fal fa-plus"></i></a> <span class="tag">12-12-2020</span>
+									<div class="case-study-info"> <a href="#" class="icon"><i class="fal fa-plus"></i></a> <span class="tag">10-08-2021</span>
 										<h5>
-                    Ümummilli lider Heydər Əliyevin unudulmaz xatirəsini ehtiramla yad edirik.
-                  </h5> </div>
+											Millətimizi və bütün İslam dünyasını 1443 Hicri ili münasibətilə təbrik edirəm və yeni Hicri Yeni ilimizin bir bərəkət olacağını ümid edirəm. Sizə xoşbəxtlik, sağlamlıq və məhsuldar illər arzulayıram. <br>
+											<br>
+											Abdurrahman Kaan
+                  						</h5> 
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 ui-ux case-column">
 						<div class="single-case-study">
-							<div class="case-img"> <img src="assets/img/MUSIAD-Aze/metbuat/korporativ.jpg" alt="" />
+							<div class="case-img"> <img src="assets/img/MUSIAD-Aze/fealiyyetlerimiz/orman_destek.jpg" alt="" />
 								<div class="case-overlay">
-									<div class="case-study-info"> <a href="#" class="icon"><i class="fal fa-plus"></i></a> <span class="tag">25-09-2020</span>
+									<div class="case-study-info"> <a href="#" class="icon"><i class="fal fa-plus"></i></a> <span class="tag">01-08-2021</span>
 										<h5>
-										MÜSİAD Azərbaycan ilk dəfə korporativ formada öz üzvləri arasında borc fondu təsis edib.
-                  </h5> </div>
+											#MÜSİADAzərbaycan olaraq, daha yaşıl bir Türkiyə və daha yaşıl bir gələcək üçün yanan meşələrimizi yenidən yaşıllaşdırmaq üçün Biz də varıq.
+                  						</h5>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -401,67 +412,7 @@ include_once "header.php"; ?>
 							<h2>Komitələr</h2> 
 						</div>
 					</div>
-					<div class="komite-row">
-						<div class="komite-item">
-				         	<div class="single-service-item">
-						    	<div class="service-text" data-toggle="modal" data-target="#karz">
-									<img src="assets/img/MUSIAD-Aze/komiteler/karz-i_hasen_logo.png" alt="" style='width:55%'>
-									<h5 class='komite-title'>MÜSİAD Azərbaycan Karz-ı Hasen Komitəsi</h5> 
-									<div class="modal fade" id="karz" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-									<div class="modal-dialog modal-lg  komite-modal" style='top:10%; max-width:50%'>
-										<div class="modal-content"> 
-											<div class="modal-body">
-												<button style='position:absolute;top:-40px;right:-25px' type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">MÜSİAD Azərbaycan Karz-ı Hasen Komitəsi</h1>
-												<p style="color:black; text-align:justify">
-                									<h4>Sədr: <b>Yusif Hüseynov</b></h4>
-												 	<ul style="color:red; text-align:start; list-style:inside; margin-top:1rem">
-														<li style='color:black'></li>
-														<li style='color:black'></li>
-														<li style='color:black'></li>
-														<li style='color:black'></li>
-														<li style='color:black'></li>
-														<li style='color:black'></li>
-												    </ul> 
-              									</p>
-											</div>
-										</div>
-										</div>
-									</div>
-								</div>
-						 	</div>
-						</div>
-
-						<div class="komite-item">
-				         	<div class="single-service-item">
-						    	<div class="service-text" data-toggle="modal" data-target="#genc">
-									<img src="assets/img/MUSIAD-Aze/komiteler/genc_musiad.png" alt="">
-									<h5 class='komite-title'>MÜSİAD Azərbaycan GENÇ MÜSİAD Komitəsi</h5> 
-									<div class="modal fade" id="genc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-									<div class="modal-dialog modal-lg  komite-modal" style='top:10%; max-width:50%'>
-										<div class="modal-content"> 
-											<div class="modal-body">
-												<button style='position:absolute;top:-40px;right:-25px' type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">MÜSİAD Azərbaycan Karz-ı Hasen Komitəsi</h1>
-												<p style="color:black; text-align:justify">
-                									<h4>Sədr: <b>Sait Yinanç</b></h4>
-												 	<ul style="color:red; text-align:start; list-style:inside; margin-top:1rem">
-														<li style='color:black'></li>
-														<li style='color:black'></li>
-														<li style='color:black'></li>
-														<li style='color:black'></li>
-														<li style='color:black'></li>
-														<li style='color:black'></li>
-												    </ul> 
-              									</p>
-											</div>
-										</div>
-										</div>
-									</div>
-								</div>
-						 	</div>
-						</div>
-					</div>
+					
 					<div class="komite-container">
 						<div class="komite-item">
 				         	<div class="single-service-item">
@@ -507,13 +458,13 @@ include_once "header.php"; ?>
 											14 -123 10 -172 10 -296 3z"/>
 										</g>
 									</svg>
-									<h5 class='komite-title'>MÜSİAD Azərbaycan Qlobal Komitəsi</h5> 
+									<h5 class='komite-title'>Qlobal Komitə</h5> 
 									<div class="modal fade" id="qlobal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 									<div class="modal-dialog modal-lg  komite-modal" style='top:10%; max-width:50%'>
 										<div class="modal-content"> 
 											<div class="modal-body">
 												<button style='position:absolute;top:-40px;right:-25px' type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">MÜSİAD Azərbaycan Qlobal Komitəsi</h1>
+												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">Qlobal Komitə</h1>
 												<p style="color:black; text-align:justify">
                 									<h4>Sədr: <b>Rəşad Cabirli</b></h4>
 												 	<ul style="color:red; text-align:start; list-style:inside; margin-top:1rem">
@@ -582,13 +533,13 @@ include_once "header.php"; ?>
 										-72 -1 -135 32 -38 20 -70 36 -71 36 -2 0 -26 -20 -53 -45z"/>
 										</g>
 								</svg>
-								<h5 class='komite-title'>MÜSİAD Azərbaycan Üzv Əlaqələri Komitəsi</h5> </div>
+								<h5 class='komite-title'>Üzvlərlə Əlaqələr Komitəsi</h5> </div>
 								<div class="modal fade" id="elaqeler" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 									<div class="modal-dialog modal-lg  komite-modal" style='top:10%; max-width:50%'>
 										<div class="modal-content"> 
 											<div class="modal-body">
 												<button style='position:absolute;top:-40px;right:-25px' type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">MÜSİAD Azərbaycan Akademiya Komitəsi</h1>
+												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">Üzvlərlə Əlaqələr Komitəsi</h1>
 												<p style="color:black; text-align:justify">
                 									<h4>Sədr: <b>Osman Yaqubov</b></h4>
 												 	<ul style="color:red; text-align:start; list-style:inside; margin-top:1rem">
@@ -670,13 +621,13 @@ include_once "header.php"; ?>
 									71 153 -69z"/>
 									</g>
 								</svg>
-								<h5 class='komite-title'>MÜSİAD Azərbaycan Akademiya Komitəsi</h5>
+								<h5 class='komite-title'>Akademiya Komitəsi</h5>
 								<div class="modal fade" id="akademiya" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 									<div class="modal-dialog modal-lg  komite-modal" style='top:10%; max-width:50%'>
 										<div class="modal-content"> 
 											<div class="modal-body">
 												<button style='position:absolute;top:-40px;right:-25px' type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">MÜSİAD Azərbaycan Akademiya Komitəsi</h1>
+												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">Akademiya Komitəsi</h1>
 												<p style="color:black; text-align:justify">
                 									<h4>Sədr: <b>Alim Şentürk</b></h4>
 												 	<ul style="color:red; text-align:start; list-style:inside; margin-top:1rem">
@@ -734,13 +685,13 @@ include_once "header.php"; ?>
      							       244 525 l51 60 -210 0 c-191 0 -210 -2 -215 -17z"/>
     								</g>
 								</svg>
-								<h5 class='komite-title'>MÜSİAD Azərbaycan Korporativ Münasibətlər Komitəsi</h5>
+								<h5 class='komite-title'>Korporativ Münasibətlər Komitəsi</h5>
 								<div class="modal fade" id="korporativ" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 									<div class="modal-dialog modal-lg  komite-modal" style='top:10%; max-width:50%'>
 										<div class="modal-content"> 
 											<div class="modal-body">
 												<button style='position:absolute;top:-40px;right:-25px' type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">MÜSİAD Azərbaycan Korporativ Münasibətlər Komitəsi</h1>
+												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">Korporativ Münasibətlər Komitəsi</h1>
 												<p style="color:black; text-align:justify">
                 									<h4>Sədr: <b>Hüseyin Yapar</b></h4>
 													<span>MÜSİAD Azərbaycan-nın məqsədlərinə uyğun olan müəssisə və təşkilatlar, diplomatik missiya səfərləri və qəbulları, xarici işçi heyətlərinin qəbulu və onlarla birgə iş təşkilatları həyata keçirmək, MÜSİAD Azərbaycan -ın ünsiyyət strategiyalarını təyin etmək və ictimaiyyətdəki qavrayışı idarə etməklə mükəlləfdir.</span>
@@ -824,14 +775,14 @@ include_once "header.php"; ?>
 										</g>
 									</svg>
 									<h5 class='komite-title'>
-										MÜSİAD Azərbaycan Kənd Təsərrüfatı və Turizmin İnkişafı Komitəsi
+										Kənd Təsərrüfatı və Turizmin İnkişafı Komitəsi
               						</h5> 
 								  <div class="modal fade" id="kend" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 									<div class="modal-dialog modal-lg  komite-modal" style='top:10%; max-width:50%'>
 										<div class="modal-content"> 
 											<div class="modal-body">
 												<button style='position:absolute;top:-40px;right:-25px' type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">MÜSİAD Azərbaycan Kənd Təsərrüfatı və Turizmin İnkişafı Komitəsi</h1>
+												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">Kənd Təsərrüfatı və Turizmin İnkişafı Komitəsi</h1>
 												<p style="color:black; text-align:justify">
                 									<h4>Sədr: <b>Ruslan Fərzəli</b></h4>
 												 	<ul style="color:red; text-align:start; list-style:inside; margin-top:1rem">
@@ -887,13 +838,13 @@ include_once "header.php"; ?>
 									-280 -21z"/>
 									</g>
 								</svg>
-								<h5 class='komite-title'>MÜSİAD Azərbaycan İstehsalat ve Ticarətin İnkişafı Komitəsi</h5>
+								<h5 class='komite-title'>İstehsal ve Ticarətin İnkişafı Komitəsi</h5>
 								<div class="modal fade" id="istehsalat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 									<div class="modal-dialog modal-lg  komite-modal" style='top:10%; max-width:50%'>
 										<div class="modal-content"> 
 											<div class="modal-body">
 												<button style='position:absolute;top:-40px;right:-25px' type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">MÜSİAD Azərbaycan İstehsalat ve Ticarətin İnkişafı Komitəsi</h1>
+												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">İstehsal ve Ticarətin İnkişafı Komitəsi</h1>
 												<p style="color:black; text-align:justify">
                 									<h4>Sədr: <b>İrfan Şahin</b></h4>
 												 	<ul style="color:red; text-align:start; list-style:inside; margin-top:1rem">
@@ -914,6 +865,68 @@ include_once "header.php"; ?>
 							 	</div>
 								</div>
 							</div>
+
+					</div>
+
+<div class="komite-row">
+						<div class="komite-item">
+				         	<div class="single-service-item">
+						    	<div class="service-text" data-toggle="modal" data-target="#karz">
+									<img src="assets/img/MUSIAD-Aze/komiteler/karz-i_hasen_logo.png" alt="" style='width:55%'>
+									<h5 class='komite-title'>Karz-ı Hasen Fondu</h5> 
+									<div class="modal fade" id="karz" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+									<div class="modal-dialog modal-lg  komite-modal" style='top:10%; max-width:50%'>
+										<div class="modal-content"> 
+											<div class="modal-body">
+												<button style='position:absolute;top:-40px;right:-25px' type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">Karz-ı Hasen Fondu</h1>
+												<p style="color:black; text-align:justify">
+                									<h4>Sədr: <b>Yusif Hüseynov</b></h4>
+												 	<ul style="color:red; text-align:start; list-style:inside; margin-top:1rem">
+														<li style='color:black'>MÜSİAD Azərbaycan üzvləri arasındakı yardımlaşma və həmrəylik mədəniyyətinin korporativ bir mexanizmə çevirmək və sahibkarlarımızın biznesini asanlaşdırmaq düşüncəsi Fondun meydana gəlməsinə vəsilə olmuşdur.</li>
+														<li style='color:black'>Fond, mədəniyyətimizin gözəl dəyərlərindən biri olan "Karzı Hasen" anlayışını və prinsiplərini bugünkü biznes həyatında aktuallaşdıraraq, yardımlaşma və həmrəylik mədəniyyətini korporativləşdirməkdədir.</li>
+														<li style='color:black'>Karzı Hasen Fondunun təməl hədəfi borc münasibətini dinimizin əmr etdiyi şəkildə tətbiq edə bilmək və bunu tətbiq edərkən qurumumuzun cəmiyyətin həyatında aktiv olaraq sistemləşməsini təmin etməkdir.</li>
+														<li style='color:black'>Bunun sayəsində biznesdə ehtiyat maliyyə həcmini artıraraq, sahibkarın çətin günlərində həmrəylik nümayiş etdirməsini və biznesin üzərindəki izafi yüklərdən biri olan faiz yükünü Karzı Hasen mexanizmi ilə aradan qaldırmağı məqsəd olaraq qarşıya qoymaqdadır.</li>
+												    </ul> 
+													<p><img src="/assets/documents/pdf-icon.jpg" style='width:30px; vertical-align:sub' alt="pdf"> <a href="/assets/documents/karzi_hasen.pdf" target='_blank' style='color:black'>Karz-ı Hasen PDF</a>.</p>													
+              									</p>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+						 	</div>
+						</div>
+
+						<div class="komite-item">
+				         	<div class="single-service-item">
+						    	<div class="service-text" data-toggle="modal" data-target="#genc">
+									<img src="assets/img/MUSIAD-Aze/komiteler/genc_musiad.png" alt="">
+									<h5 class='komite-title'>GENÇ MÜSİAD Komitəsi</h5> 
+									<div class="modal fade" id="genc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+									<div class="modal-dialog modal-lg  komite-modal" style='top:10%; max-width:50%'>
+										<div class="modal-content"> 
+											<div class="modal-body">
+												<button style='position:absolute;top:-40px;right:-25px' type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+												<h1 class='komite-title' style="margin-bottom:2rem !important; font-weight:600; font-size:1.8rem">Karz-ı Hasen Komitəsi</h1>
+												<p style="color:black; text-align:justify">
+                									<h4>Sədr: <b>Sait Yinanç</b></h4>
+												 	<ul style="color:red; text-align:start; list-style:inside; margin-top:1rem">
+														<li style='color:black'></li>
+														<li style='color:black'></li>
+														<li style='color:black'></li>
+														<li style='color:black'></li>
+														<li style='color:black'></li>
+														<li style='color:black'></li>
+												    </ul> 
+              									</p>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+						 	</div>
+						</div>
 						</div>
 			 		</div>
 				</div>
@@ -972,19 +985,19 @@ include_once "header.php"; ?>
 									</div>
 									<div class="col-lg-3">
 										<div class="form_group">
-											<input type="text" class="form_control" placeholder="1. Referans olacaq MÜSİAD üzvü" name="referance1" required /> </div>
+											<input type="text" class="form_control" placeholder="1. Referans üzv" name="referance1" required /> </div>
 									</div>
 									<div class="col-lg-3">
 										<div class="form_group">
-											<input type="text" class="form_control" placeholder="2. Referans olacaq MÜSİAD üzvü" name="referance2" required /> </div>
+											<input type="text" class="form_control" placeholder="2. Referans üzv" name="referance2" required /> </div>
 									</div>
 									<div class="col-lg-6">
 										<div class="form_group">
 											<input type="text" class="form_control" placeholder="Ünvanınız" name="address" required /> </div>
 									</div>
 									<div class="col-lg-6">
-										<div class="form-group form_group" style="display: flex; padding: 16px 20px">
-											<label for="exampleFormControlFile1" style="margin-right: 15px">Şəkil</label>
+										<div class="form-group form_group photo-form" style="display: flex; padding: 16px 20px">
+											<label for="exampleFormControlFile1" style="margin-right: 15px; margin-top:0.2rem">Şəkil</label>
 											<input type="file" accept="image/*" class="form-control-file" id="exampleFormControlFile1" name="fileToUpload" /> </div>
 									</div>
 									<div class="col-lg-12">

@@ -15,39 +15,34 @@ include_once "header.php"; ?>
         </div>
        
         <div class="masonry-row row">
-          <div class="col-lg-4 col-md-6 col-sm-12 ui-ux case-column">
-            <div class="single-case-study">
-              <div class="case-img">
-                <img src="assets/img/MUSIAD-Aze/metbuat/lider.jpg" alt="" />
-                <div class="case-overlay">
-                  <div class="case-study-info">
-                    <a href="#" class="icon"><i class="fal fa-plus"></i></a>
-                    <span class="tag">12-12-2020</span>
-                    <h5>
-                      Ümummilli lider Heydər Əliyevin unudulmaz xatirəsini
-                      ehtiramla yad edirik.
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 ui-ux case-column">
-            <div class="single-case-study">
-              <div class="case-img">
-                <img src="assets/img/MUSIAD-Aze/metbuat/korporativ.jpg" alt="" />
-                <div class="case-overlay">
-                  <div class="case-study-info">
-                    <a href="#" class="icon"><i class="fal fa-plus"></i></a>
-                    <span class="tag">25-09-2020</span>
-                    <h5>
-                    MÜSİAD Azərbaycan ilk dəfə korporativ formada öz üzvləri arasında borc fondu təsis edib.
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 ui-ux case-column">
+						<div class="single-case-study">
+							<div class="case-img"> <img src="assets/img/MUSIAD-Aze/metbuat/hicri.jpg" alt="" />
+								<div class="case-overlay">
+									<div class="case-study-info"> <a href="#" class="icon"><i class="fal fa-plus"></i></a> <span class="tag">10-08-2021</span>
+										<h5>
+											Millətimizi və bütün İslam dünyasını 1443 Hicri ili münasibətilə təbrik edirəm və yeni Hicri Yeni ilimizin bir bərəkət olacağını ümid edirəm. Sizə xoşbəxtlik, sağlamlıq və məhsuldar illər arzulayıram. <br>
+											<br>
+											Abdurrahman Kaan
+                  						</h5> 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 ui-ux case-column">
+						<div class="single-case-study">
+							<div class="case-img"> <img src="assets/img/MUSIAD-Aze/fealiyyetlerimiz/orman_destek.jpg" alt="" />
+								<div class="case-overlay">
+									<div class="case-study-info"> <a href="#" class="icon"><i class="fal fa-plus"></i></a> <span class="tag">01-08-2021</span>
+										<h5>
+											#MÜSİADAzərbaycan olaraq, daha yaşıl bir Türkiyə və daha yaşıl bir gələcək üçün yanan meşələrimizi yenidən yaşıllaşdırmaq üçün Biz də varıq.
+                  						</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
           <div class="col-lg-4 col-md-6 col-sm-12 ui-ux case-column">
             <div class="single-case-study">
               <div class="case-img">

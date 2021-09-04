@@ -42,10 +42,12 @@ include_once "header.php"; ?>
       </thead>
 
       <tbody>
-        <?php $sql = mysqli_query($db, "SELECT * FROM members");
+        <?php $sql = mysqli_query($db, "SELECT * FROM members ORDER BY order_member  ASC");
+            $i = 0;
         while ($row = mysqli_fetch_array($sql)) {
+            $i ++;
           echo ' <tr class="tr" style="cursor: pointer" href="uzv.php?id=' . $row['id'] . '">
-              <td>' . $row['id'] . '</td>
+              <td>' .$i. '</td>
               <td><img src="assets/img/MUSIAD-Aze/uzvler/' . $row['img'] . '" alt="" />  </td>
               <td>' . $row['company'] . '</td>
               <td class="term">' . $row['sector'] . '</td>

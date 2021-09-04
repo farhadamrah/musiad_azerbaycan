@@ -3518,8 +3518,11 @@ textarea {
 } */
 
 .list li,
-.current {
-  color: black !important;
+.current,
+.photo-form {
+  font-size: 16px !important;
+  color: #363636 !important;
+  font-weight: 600 !important;
 }
 
 .table-hover tbody tr:hover {
@@ -3839,58 +3842,48 @@ tr.hover {
 }
 .modal-content .close {
   position: absolute;
-  right: 1.5%;
+  right: -2.5%;
   box-sizing: revert;
-  top: 1%;
+  top: -7%;
   font-size: 3rem;
   text-shadow: 2px 2px 2px black;
   color: #ffa201;
 }
-.modal-left {
-  flex: 0.3;
+
+.article-image {
   display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
 }
-.modal-left__profile img {
-  flex: 0.8;
-  margin-bottom: 10px;
-  background-position: center !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
+.modal-image {
+  width: 300px;
+  height: fit-content;
+  float: right;
+  margin-left: 9px;
 }
-.modal-left__contacts {
-  flex: 0.2;
+.modal-content {
+  display: flex;
 }
-.modal-left__contacts h4 {
-  color: #f3a218;
-  text-transform: uppercase;
-  margin-bottom: 7px;
-}
-.modal-left__contacts a {
+.modal-contact a {
   font-weight: 600;
+  margin-right: 1.5rem;
+  color: #686868;
 }
-.modal-left__contacts a i {
+.modal-contact a:hover {
+  color: #f3a218;
+}
+.modal-contact a i {
   margin-right: 5px;
-  vertical-align: middle;
+  vertical-align: text-bottom;
 }
-.modal-right {
-  flex: 0.67;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 .modal-right__title {
   color: #f3a218;
 }
-.modal-right hr {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
+
 .modal-right__subtitle {
   color: #707070;
+  margin-bottom: 0.5rem;
 }
-.modal-right__article {
+.modal-article {
   color: #3e4043;
   text-align: justify;
 }
@@ -3956,6 +3949,122 @@ tr.hover {
   color: #bb9c46 !important;
 }
 
+.tanitim-pdf {
+  display: grid;
+  grid-template-areas:
+    'a t e'
+    'az tr en';
+  grid-gap: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.tanitim-video {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tanitim-section h1 {
+  text-align: center;
+}
+
+.iframes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tanitim-img {
+  background-position: 100% 53.79% !important;
+  background-size: auto !important;
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat !important;
+  margin-bottom: 30px;
+}
+
+.tanitim-section {
+  padding-top: 180px;
+  padding-bottom: 90px;
+  display: flex;
+  align-items: center;
+  /* min-height: 1343px; */
+}
+.tanitim-banner {
+  width: 100%;
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px 50px;
+}
+.item-box {
+  width: 400px;
+  height: 250px;
+  border: 4px solid #bb9c46;
+}
+.box-img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-position: 100% !important;
+  background-size: cover !important;
+  position: relative;
+}
+.box-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.item-box:hover .box-shadow {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  opacity: 1;
+}
+.box-title {
+  color: whitesmoke;
+  font-size: 33px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.box-languages {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  align-items: center;
+}
+.flag {
+  width: 65px;
+  height: 58px;
+  transition: all 0.3s linear;
+}
+.flag:hover {
+  transform: scale(1.2);
+}
+
+.team-members .single-team-member .member-info h5 {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  line-height: 1.2;
+}
+.team-members .single-team-member:hover .member-info {
+  bottom: 10px;
+  padding: 7px 20px;
+}
+
+#metbuatda_biz .case-study-info h5 {
+  font-size: 1.05rem;
+}
+.case-study .single-case-study .case-study-info {
+  padding: 19px;
+}
 
 @media (min-width: 1200px) {
   .tarixce {
@@ -3965,9 +4074,7 @@ tr.hover {
   .card-container .row {
     width: 80%;
   }
-  /* #komiteler .single-service-item {
-    min-height: 380px;
-  } */
+
   .header-area-v1 .header-navigation .nav-toggle {
     height: auto !important;
   }
@@ -3978,23 +4085,28 @@ tr.hover {
   #statistika .info #menteqe {
     font-size: 1rem;
   }
-  .modal-left {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  .modal-left__profile img {
-    max-height: 350px;
-    margin-right: 1.5rem;
-  }
-  .modal-left__contacts a {
-    display: flex;
-    margin-bottom: 0.2rem;
-  }
 
   .komite-container .komite-item,
   .komite-row .komite-item {
     padding: 0.7rem;
+  }
+
+  .tanitim-img {
+    background-position: center 53.79% !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 415px;
+    background-repeat: no-repeat !important;
+    margin-bottom: 30px;
+  }
+  /* .tanitim-section {
+    padding-top: 50px;
+    padding-bottom: 215px;
+    min-height: 1340px;
+  } */
+  .iframes iframe {
+    width: 49%;
+    height: 400px;
   }
 }
 
@@ -4007,9 +4119,7 @@ tr.hover {
   .card-container .row {
     width: 100%;
   }
-  /* #komiteler .single-service-item {
-    min-height: 470px;
-  } */
+
   .header-navigation .navbar-close .cross-wrap span {
     background-color: #222222 !important;
   }
@@ -4132,24 +4242,6 @@ tr.hover {
     padding-top: 160px;
   }
 
-  .modal-right hr {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-  .modal-left {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  .modal-left__profile {
-    flex: 0.7;
-  }
-  .modal-left__contacts a {
-    display: flex;
-  }
-  .modal-right__article {
-    line-height: 1.5;
-  }
   .idare .section-title {
     margin-top: 20px;
   }
@@ -4228,6 +4320,14 @@ tr.hover {
   .komite-row .komite-item {
     padding: 0.7rem;
   }
+
+  .tanitim-section {
+    padding-top: 10rem;
+  }
+	
+  .modal-content .close {
+	top: -2%;
+  }
 }
 
 @media (max-width: 996px) {
@@ -4287,22 +4387,10 @@ tr.hover {
     padding: 40px 30px 30px 30px;
   }
   .modal-content .close {
-    right: 1.5%;
-    top: 0;
+    right: -10px;
+    top: -40px;
   }
-  .modal-left {
-    display: flex;
-    flex: 0.5;
-    flex-direction: row;
-    /* justify-content: space-around; */
-  }
-  .modal-left__profile img {
-    flex: 0.5;
-  }
-  .modal-left__contacts {
-    flex: 0.4;
-    margin-top: 20px;
-  }
+
   .modal {
     top: 10%;
   }
@@ -4336,6 +4424,27 @@ tr.hover {
 
   #komiteler .container {
     max-width: 90% !important;
+  }
+
+  .tanitim-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .items-container {
+    grid-gap: 20px;
+  }
+
+  .item-box {
+    width: 370px;
+  }
+
+  .modal-image {
+    width: 240px;
   }
 }
 
@@ -4454,15 +4563,35 @@ tr.hover {
     flex: 0.8;
   }
 
-  .modal-left {
-    flex-direction: column;
-  }
-
   .komite-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
+  }
+
+  .tanitim-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .items-container {
+    grid-template-columns: 1fr;
+  }
+  .item-box {
+    width: 480px;
+    height: 270px;
+  }
+
+  .modal-article {
+    color: #3e4043;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .modal-image {
+    width: 200px;
+    margin-right: 4px;
   }
 }
 
@@ -4718,16 +4847,23 @@ tr.hover {
   .tedbir-article p {
     line-height: 1.4;
   }
+
+  .tanitim-section {
+    padding-top: 6rem !important;
+  }
+
+  .item-box {
+    width: 422px;
+    height: 250px;
+  }
+
+  .flag {
+    width: 55px;
+    height: 50px;
+  }
 }
 
 @media (max-width: 450px) {
-  .modal-left {
-    flex-direction: column;
-  }
-  .modal-left__profile {
-    background-size: contain !important;
-    flex: 3;
-  }
   .idare .section-title h2 {
     font-size: 45px;
   }
@@ -4795,6 +4931,25 @@ tr.hover {
   .komite-row {
     flex-direction: column;
   }
+
+  .tanitim-section h1 {
+    font-size: 30px;
+  }
+
+  .tanitim-pdf {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    grid-gap: 20px;
+  }
+
+  .item-box {
+    width: 330px;
+    height: 180px;
+  }
+  .flag {
+    width: 47px;
+    height: 42px;
+  }
 }
 
 @media (max-width: 376px) {
@@ -4805,6 +4960,11 @@ tr.hover {
     margin-left: 27px;
     justify-content: space-evenly;
     width: 19rem;
+  }
+
+  .item-box {
+    width: 270px;
+    height: 150px;
   }
 }
 

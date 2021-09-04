@@ -24,6 +24,48 @@
           </div>
         </div>
         <div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="single-team-member mb-40">
+							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/carousel/IBF.jpg" alt="" /> </div>
+							<div class="member-info">
+								<h5>25 -ci Beynəlxalq İş Forumu (IBF) 2021 -ci ilin noyabrında Azərbaycanın paytaxtı Bakıda keçiriləcək.</h5>
+								<p>10-08-2021</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="single-team-member mb-40">
+							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/carousel/uzv_yemeyi.jpg" alt="" /> </div>
+							<div class="member-info">
+								<h5>
+									MÜSİAD Azərbaycan Ənənəvi Üzv Səhər yeməyi proqramı Şirvanşah oteldə baş tutmuşdur.
+              					</h5>
+								<p>07-08-2021</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="single-team-member mb-40">
+							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/carousel/fhn-turkiye.jpg" alt="" /> </div>
+							<div class="member-info">
+								<h5>
+									Azərbaycan Prezidenti Cənab İlham Əliyevin tapşırığı və Fövqəladə Hallar Naziri Cənab Kəmaləddin Heydərovun koordinasiyası ilə, ölkəmizdəki meşə yanğınlarının söndürülməsi üçün 4-cü qrup 200 yanğınsöndürən Dalaman'a yola salındı.
+              					</h5>
+								<p>07-08-2021</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="single-team-member mb-40">
+							<div class="team-img"> <img src="./assets/img/MUSIAD-Aze/fealiyyetlerimiz/orman_destek.jpg" alt="" /> </div>
+							<div class="member-info">
+								<h5>#MÜSİADAzərbaycan olaraq, daha yaşıl bir Türkiyə və daha yaşıl bir gələcək üçün yanan meşələrimizi yenidən yaşıllaşdırmaq üçün Biz də varıq.</h5>
+								<p>01-08-2021</p>
+							</div>
+						</div>
+					</div>
+				</div>
+        <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="single-team-member mb-40">
               <div class="team-img">
